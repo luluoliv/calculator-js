@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600;700&family=Mitr&family=Montserrat:wght@400;500&family=Noto+Sans&family=Outfit&family=Poppins&family=Press+Start+2P&family=Ubuntu:wght@400;500&display=swap');
+
+/*  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 15px;
+}
+
+#calculadora {
+    background-color: #00131be1;
+    box-shadow: rgb(189, 189, 189) 2px 3px 10px;
+    border-radius: 20px;
+    height: 500px;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#resultado {
+    box-shadow: 1px 1.5px 1px rgb(100, 100, 100);
+    background-color: #efefef;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 7px;
+    text-align: right;
+    padding: 10px;
+    margin-top: 15px;
+    width: 320px;
+    height: 45px;
+    transition: all 0.1s ease;
+}
+
+.teclas {
+    position: relative;
+    top: 30px;
+    margin: 5px;
+}
+
+.tecla {
+    cursor: pointer;
+    background-color: #96969694;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 5px;
+    height: 65px;
+    width: 75px;
+    border: none;
+}
+
+.maior {
+    width: 155px;
+}
+
+.del {
+    background-color: rgba(255, 0, 0, 0.295);
+}
+
+.tecla:hover {
+    background-color: #949494f3;
+}
+
+.tecla:active {
+    background-color: #96969694;
+}
