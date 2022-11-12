@@ -1,4 +1,4 @@
-# <center>📚 Calculadora JavaScript 📏</center>
+# 📚 Calculadora JavaScript 📏
 
 
 Calculadora feita com JavaScript, CSS e HTML.
